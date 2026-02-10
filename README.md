@@ -208,6 +208,14 @@ Result:
 - **Consistent prefixes**: Use the same ID prefix across your application
 - **Environment variables**: Never commit `.env` files to version control
 
+## 💡 Pro Tips for a Zen Workflow
+
+- **Example File**: Check out the `examples/` folder in this repository to see the ideal structure for your data.
+- **Adding New Products**: 
+    - **Batch Method**: Create a new Excel file for each new batch of products (e.g., `delivery_feb_10.xlsx`). This keeps your imports organized by event.
+    - **Master List Method**: Keep one master Excel file and simply add new rows at the bottom. MindfulMapper will pick up the new items (just ensure `clear_existing` is `false` to avoid overwriting!).
+- **Flexible Mapping**: If your supplier changes their Excel format, don't worry! Just update the `column_mapping` in your request to Claude.
+
 ## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit issues or pull requests.
