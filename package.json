@@ -11,7 +11,7 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.26.0",
+    "@modelcontextprotocol/sdk": "^1.32.0",
     "dotenv": "^17.2.4",
     "mongodb": "^7.1.0",
     "pg": "^8.18.0",
